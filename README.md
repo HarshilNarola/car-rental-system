@@ -42,17 +42,16 @@ It demonstrates key OOP principles like classes, encapsulation, abstraction, and
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Contents
 
-Car_Rental_System/
-│
-├── Car.h / Car.cpp # Car class and logic
-├── User.h / User.cpp # User structure and login/register
-├── RentalSystem.h / .cpp # Core business logic
-├── main.cpp # Entry point
-├── cars.csv # Car data
-├── users.csv # User credentials
-└── README.md # You're reading it
+- `Car.h` / `Car.cpp` – Car class declaration and implementation
+- `User.h` / `User.cpp` – User class and login/register logic
+- `RentalSystem.h` / `RentalSystem.cpp` – Core system logic (admin/user operations, file handling)
+- `main.cpp` – Entry point of the application
+- `cars.csv` – Car records (ID, brand, model, type, rate, rented status)
+- `users.csv` – User credentials and roles
+- `README.md` – Project documentation and instructions
+
 
 ---
 
@@ -62,20 +61,17 @@ Car_Rental_System/
 
 <id>,<brand>,<model>,<type>,<rate>,<rented>
 
-Example:
-C101,Toyota,Corolla,Sedan,1000,0
-C102,Ford,EcoSport,SUV,1500,0
-C103,Honda,Amaze,Sedan,950,1
+- Example: C101,Toyota,Corolla,Sedan,1000,0
+- C102,Ford,EcoSport,SUV,1500,0
+- C103,Honda,Amaze,Sedan,950,1
 
 ---
-
 ### ✅ users.csv
 
 <username>,<password>,<role>
 
-Example:
-admin,admin123,admin
-john,pass123,user
+- Example: admin,admin123,admin
+- john,pass123,user
 
 ---
 
@@ -83,10 +79,9 @@ john,pass123,user
 
 ### On Windows/Linux/macOS (with g++)
 
-```bash
-g++ main.cpp Car.cpp User.cpp RentalSystem.cpp -o rental
-./rental       # Linux/macOS
-rental.exe     # Windows
+- g++ main.cpp Car.cpp User.cpp RentalSystem.cpp -o rental
+- ./rental       # Linux/macOS
+- rental.exe     # Windows
 
 ## 📌 How to Use
 ▶️ Start Menu
@@ -96,20 +91,24 @@ rental.exe     # Windows
 3. Register
 
 👨‍💼 Admin Login
-Username: admin
-Password: admin123
-Can add/remove cars and register users.
+- Username: admin
+- Password: admin123
+- Can add/remove cars and register users.
 
 👤 User Login
-Use a pre-registered user (e.g. john) or register as new.
-Can rent, return, and calculate rental bill.
+- Use a pre-registered user (e.g. john) or register as new.
+- Can rent, return, and calculate rental bill.
 
-##  Concepts Covered
-Classes & Objects
-Encapsulation & Abstraction
-File I/O with CSV
-Vectors and Strings
-Basic Menu Systems
+## 📘 Concepts Covered
+
+- Classes & Objects
+- Encapsulation & Abstraction
+- File I/O using CSV
+- Header files (`.h`) and source files (`.cpp`)
+- Vectors and Strings
+- Modular code structure
+- Menu-driven CLI interface
+
 
 ## 🙋‍♂️ Developer
 Harshil Narola
