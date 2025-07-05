@@ -11,12 +11,11 @@ It demonstrates key OOP principles like classes, encapsulation, abstraction, and
 
 ## 📚 Table of Contents
 - [🧠 Features](#-features)
-- [📁 Project Structure](#-project-structure)
+- [📁 Project Contents](#-project-contents)
 - [🗃️ Sample Data Files](#️-sample-data-files)
 - [💻 How to Compile & Run](#-how-to-compile--run)
 - [📌 How to Use](#-how-to-use)
 - [📘 Concepts Covered](#-concepts-covered)
-- [🙋‍♂️ Developer](#-developer)
 
 ---
 
@@ -59,7 +58,7 @@ It demonstrates key OOP principles like classes, encapsulation, abstraction, and
 
 ### ✅ cars.csv
 
-<id>,<brand>,<model>,<type>,<rate>,<rented>
+id,brand,model,type,rate,rented
 
 - Example: C101,Toyota,Corolla,Sedan,1000,0
 - C102,Ford,EcoSport,SUV,1500,0
@@ -68,7 +67,7 @@ It demonstrates key OOP principles like classes, encapsulation, abstraction, and
 ---
 ### ✅ users.csv
 
-<username>,<password>,<role>
+username,password,role
 
 - Example: admin,admin123,admin
 - john,pass123,user
@@ -108,7 +107,3 @@ It demonstrates key OOP principles like classes, encapsulation, abstraction, and
 - Vectors and Strings
 - Modular code structure
 - Menu-driven CLI interface
-
-
-## 🙋‍♂️ Developer
-Harshil Narola
